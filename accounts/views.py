@@ -7,6 +7,7 @@ from django.views.generic import (
 from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.forms import PasswordChangeForm
+from django.contrib.auth.views import login as auth_login
 
 from .models import User
 from .forms import UserAdminCreationForm
@@ -46,6 +47,10 @@ class UpdatePasswordView(LoginRequiredMixin, FormView):
         kwargs = super(UpdatePasswordView, self).get_form_kwargs()
         kwargs['user'] = self.request.user
         return kwargs
+
+    def form_valid(self, form):
+        form.save()
+        return super(UpdatePasswordView, self).form_valid(form)
 
 
 index = IndexView.as_view()

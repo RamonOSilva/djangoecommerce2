@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e26242c0-0d98-4c58-8fa9-74af26fa3306" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/templates/checkout/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/templates/checkout/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +36,7 @@
         <counts>
           <entry key="Procfile" value="5" />
           <entry key="html" value="2" />
-          <entry key="py" value="30" />
+          <entry key="py" value="31" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
@@ -38,7 +44,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="30" />
+          <entry key="Python" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -57,7 +63,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangoecommerce/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
@@ -66,6 +72,13 @@
                 <element signature="e#649#690#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/checkout/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-914" />
           </provider>
         </entry>
       </file>
@@ -119,7 +132,7 @@
             <path>
               <item name="djangoecommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="checkout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,6 +317,11 @@
             <element signature="e#649#690#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914" />
       </provider>
     </entry>
   </component>
