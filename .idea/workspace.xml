@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e26242c0-0d98-4c58-8fa9-74af26fa3306" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoecommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoecommerce/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,62 +34,41 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="5" />
-          <entry key="html" value="3" />
-          <entry key="py" value="41" />
-          <entry key="txt" value="20" />
+          <entry key="html" value="5" />
+          <entry key="py" value="44" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Python" value="41" />
+          <entry key="HTML" value="5" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Python" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="130" />
+          <entry key="py" value="140" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="130" />
+          <entry key="Python" value="140" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/djangoecommerce/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2564">
-              <caret line="150" selection-start-line="150" selection-end-line="150" />
+            <state relative-caret-position="287">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding>
                 <element signature="e#319#328#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangoecommerce/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-              <folding>
-                <element signature="e#649#690#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,9 +84,9 @@
       <list>
         <option value="$PROJECT_DIR$/catalog/context_processors.py" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/djangoecommerce/settings.py" />
         <option value="$PROJECT_DIR$/djangoecommerce/urls.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/djangoecommerce/settings.py" />
       </list>
     </option>
   </component>
@@ -134,11 +108,6 @@
             <path>
               <item name="djangoecommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoecommerce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="catalog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangoecommerce" type="b2602c69:ProjectViewProjectNode" />
@@ -327,19 +296,16 @@
     <entry file="file://$PROJECT_DIR$/catalog/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoecommerce/settings.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2564">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-          <folding>
-            <element signature="e#319#328#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/djangoecommerce/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="332">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="e#649#690#0" expanded="true" />
@@ -347,10 +313,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/catalog/templates/catalog/_product.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoecommerce/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="287">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="e#319#328#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
